@@ -112,7 +112,7 @@ async def genkey(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         else:
             response = "Usage: /genkey <amount> <hours/days>"
     else:
-        response = "𝐎𝐍𝐋𝐘 𝐎𝐖𝐍𝐄𝐑 𝐂𝐀𝐍 𝐔𝐒𝐄💀𝐎𝐖𝐄𝐑 @RONIT_IN"
+        response = "𝐎𝐍𝐍𝐋𝐘 𝐎𝐖𝐍𝐄𝐑 𝐂𝐀𝐍 𝐔𝐒𝐄💀𝐎𝐖𝐄𝐑 @RONIT_IN"
 
     await update.message.reply_text(response)
 
